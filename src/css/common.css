@@ -16,3 +16,34 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button-start {
+  min-width: 76px;
+  height: 46px;
+  border-color: rgb(10, 10, 10);
+  border-radius: 4px;
+  color: rgb(10, 10, 10);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: rgb(208, 215, 216);
+  cursor: pointer;
+  margin-left: 450px;
+}
+
+.button-stop {
+  min-width: 76px;
+  height: 46px;
+  border-color: rgb(10, 10, 10);
+  border-radius: 4px;
+  color: rgb(10, 10, 10);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: rgb(208, 215, 216);
+  cursor: pointer;
+}

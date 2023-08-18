@@ -80,16 +80,6 @@ img {
   left: 34px;
 }
 
-.close:before {
-  webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.close:after {
-  webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
 .timer {
   margin-top: 20px;
   display: flex;

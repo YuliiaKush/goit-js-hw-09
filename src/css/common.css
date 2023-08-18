@@ -17,6 +17,8 @@ img {
   max-width: 100%;
 }
 
+/* Task 1 */
+
 .button-start {
   min-width: 76px;
   height: 46px;
@@ -46,4 +48,63 @@ img {
   letter-spacing: 0.04em;
   background-color: rgb(208, 215, 216);
   cursor: pointer;
+}
+
+/* Task 2 */
+.element-input {
+  font-size: 30px;
+  width: 300px;
+}
+
+.element-btn {
+  height: 40px;
+  font-size: 30px;
+}
+
+.close {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid rgb(85, 78, 78);
+}
+
+.close:before,
+.close:after {
+  content: '';
+  position: absolute;
+
+  width: 42px;
+  height: 4px;
+  background: rgb(85, 78, 78);
+  top: 48px;
+  left: 34px;
+}
+
+.close:before {
+  webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close:after {
+  webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  text-align: center;
+}
+
+.value {
+  font-size: 35px;
+  text-align: center;
 }
